@@ -13,3 +13,5 @@ ADD css/ /app/css/
 EXPOSE 8501
 
 CMD ["streamlit", "run", "/app/datacraft.py"]
+
+docker tag dockercraft bastiendelaly/dockercraft:1
