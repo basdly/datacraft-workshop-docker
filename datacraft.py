@@ -103,7 +103,7 @@ def body(
     code_header_placeholder.header("**Retrain the same model in Python**")
     snippet_placeholder.code(snippet)
     tips_header_placeholder.header(f"**Tips on the {model_type} 💡 **")
-    tips_placeholder.info(model_tips)
+    tips_placeholder.info(model_tips) 
 
 
 if __name__ == "__main__":
